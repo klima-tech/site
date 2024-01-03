@@ -1,5 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
+import { Link } from "gatsby"
 
 const pageStyles = {
   color: "#232129",
@@ -139,6 +140,8 @@ const links = [
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main style={pageStyles}>
+      <Link to="/o-firmie">O firmie</Link>
+      <Link to="/zakres-uslug">Zakres usług</Link>
       <h1 style={headingStyles}>
         Congratulations
         <br />
