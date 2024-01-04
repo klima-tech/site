@@ -1,17 +1,15 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 
-
-const ServicesPage: React.FC<PageProps> = () => {
-return (
-    <Layout pageTitle="Zakres usług">
-        <p>Opis usług</p>
-    </Layout>
+const ContactPage: React.FC<PageProps> = () => {
+    return (
+        <Layout pageTitle="Dane kontaktowe">
+            
+        </Layout>
     )
 }
 
-export default ServicesPage
+export default ContactPage
 
-export const Head: HeadFC = () => <title>Zakres usług klimatyzacji, wentylacji oraz chłodnictwa</title>
+export const Head: HeadFC = () => <title>Informacje kontaktowe, telefon oraz dane do faktury</title>

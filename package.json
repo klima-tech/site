@@ -2,8 +2,8 @@
   "name": "site",
   "version": "1.0.0",
   "private": true,
-  "description": "site",
-  "author": "Tomasz Michalak",
+  "description": "Strona internetowa firmy Klima-Tech s.c",
+  "author": "Krzysztof Michalak",
   "keywords": [
     "gatsby"
   ],
